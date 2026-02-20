@@ -1,128 +1,109 @@
-<h1 align="center">Welcome to developer-portfolio 👋</h1>
-<a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
-
-## Software Developer Portfolio Template built with Next.js, bootstrap that helps you showcase your work and skills as a software developer.
+<h1 align="center">Hi 👋, I'm Aditya Shinde</h1>
+<h3 align="center">MCA Graduate | MERN Stack Developer | Open to Opportunities 🚀</h3>
 
 <p align="center">
-  <kbd>
-    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
-  </kbd>
+  <a href="https://github.com/itsaditya5511">
+    <img src="https://img.shields.io/github/followers/itsaditya5511?label=Followers&style=social" />
+  </a>
+  <a href="https://github.com/itsaditya5511">
+    <img src="https://img.shields.io/github/stars/itsaditya5511?label=Stars&style=social" />
+  </a>
 </p>
 
-## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
+---
 
-Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+## 👨‍💻 About Me
 
-But if you want to **contribute** and make this much better for other developers have a look at
-[Issues](https://github.com/1hanzla100/developer-portfolio/issues).
+- 🎓 MCA Graduate from University of Mumbai  
+- 💻 Passionate MERN Stack Developer  
+- 🚀 Currently building Full Stack Web Applications  
+- 🌱 Learning Advanced React & Backend Architecture  
+- 🎯 Goal: To work in top MNC companies like Amazon or Microsoft  
 
-If you created something awesome and want to contribute then feel free to open an
-[pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+---
 
-## Sections
+## 🛠️ Tech Stack
 
-✔️ Summary and About me\
-✔️ Skills\
-✔️ Education\
-✔️ Work Experience\
-✔️ Feedbacks\
-✔️ Projects\
-✔️ Github Profile
+### 💻 Frontend
+- React.js
+- Next.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Bootstrap
+- Tailwind CSS
 
-## Getting Started
+### ⚙️ Backend
+- Node.js
+- Express.js
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing
-purposes.
+### 🗄️ Database
+- MongoDB
+- MySQL
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with
-[npm](http://npmjs.com)) installed on your computer. <br> **For Windows** Install Visual C++ Build Environment:
-[Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
+### 🔧 Tools & Platforms
+- Git & GitHub
+- Vercel
+- Postman
+- VS Code
 
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-```
+---
 
-## How To Use
+## 🚀 Featured Projects
 
-1. Fork this repository and clone it to your local machine.
+### 🔹 Smart Campus Recruitment System
+A MERN Stack based campus recruitment platform with:
+- Admin, Student & Company Modules
+- Job Approval System
+- Result Management
+- Resume Upload & Download
+- Authentication using JWT
 
-```bash
-$ git clone https://github.com/<your-username>/developer-portfolio.git
-```
+🔗 GitHub: https://github.com/itsaditya5511/JOB-PORTAL-master  
 
-2. Go into the repository
+---
 
-```bash
-$ cd developer-portfolio
-```
+### 🔹 GetUrCake – E-Commerce Website
+Online Cake Ordering Platform with:
+- Product Management
+- Cart System
+- Admin Panel
+- Secure Login & Registration
+- Print Bill Feature
 
-3. Install dependencies
+🔗 GitHub: https://github.com/itsaditya5511  
 
-```bash
-$ yarn
-```
+---
 
-4. Edit `portfolio.js`
+## 📊 GitHub Stats
 
-5. Start your development server
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=itsaditya5511&show_icons=true&theme=radical" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itsaditya5511&theme=radical" />
+</p>
 
-```bash
-$ yarn dev
-```
+---
 
-## Linking Portfolio to Github
+## 📫 Connect With Me
 
-```javascript
-  //  portfolio.js
-  githubUserName: 'YOUR GITHUB USERNAME HERE',
-```
+- 💼 LinkedIn: https://linkedin.com/in/your-linkedin
+- 🐙 GitHub: https://github.com/itsaditya5511
+- 📧 Email: your-email@gmail.com
 
-#### Using Emojis
+---
 
-For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an
-argument. This would help in keeping emojis compatible across different browsers and platforms.
+## 📌 Current Focus
 
-## Technologies Used
+- Building Production Ready MERN Applications  
+- Improving DSA & Problem Solving Skills  
+- Preparing for Product-Based Companies  
 
-- [Next.js](https://nextjs.org/)
-- [axios](https://www.npmjs.com/package/axios)
-- [reactstrap](https://reactstrap.github.io/)
-- [react-reveal](https://www.react-reveal.com/)
-- [react-lottie](https://www.npmjs.com/package/react-lottie)
-- [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
-- [react-headroom](https://github.com/KyleAMathews/react-headroom)
-- [color-thief](https://github.com/lokesh/color-thief)
+---
 
-## Illustrations
+## ⭐ Show Your Support
 
-- [Lottie File Source](https://lottiefiles.com)
+If you like my work, give a ⭐ to my repositories.
 
-## Icons
+---
 
-Iconify Icons are used in the skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
-
-## For the Future
-
-If you can help us with these. Please don't hesitate to open a
-[pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
-
-- Enable Dark Mode
-
-- Add More Sections
-
-## Show your support
-
-Give a ⭐️ if this project helped you! You can buy me a coffee if you'd like to support my work further.
-<div>
-  <a href="https://www.buymeacoffee.com/1hanzla100"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=1hanzla100&button_colour=FFDD00&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
- </div>
-
-## Author
-
-👤 **Hanzla Tauqeer**
-
-- Website: https://hanzla.netlify.app
-- Github: [@1hanzla100](https://github.com/1hanzla100)
-- LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
+### ✨ "Code. Build. Deploy. Repeat."
