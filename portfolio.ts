@@ -174,6 +174,15 @@ export const experience: ExperienceType[] = [
   }
 ];
 
+export const feedbacks = [
+  {
+    name: "Professional Collaboration",
+    role: "Client",
+    feedback:
+      "Aditya demonstrates strong technical expertise in MERN stack development and delivers scalable, high-quality solutions.",
+  },
+];
+
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: "Aditya Shinde",
