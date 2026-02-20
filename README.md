@@ -57,17 +57,6 @@
 
 ---
 
-c="https://raw.githubusercontent.com/itsaditya5511/itsaditya5511/output/github-contribution-grid-snake.svg" />
-</p>
-
-👉 To enable snake animation:
-1. Create repository named **itsaditya5511**
-2. Add GitHub Action for snake generator
-
-(I can give you step-by-step if needed)
-
----
-
 ## 👀 Profile Views Counter
 
 <p align="center">
