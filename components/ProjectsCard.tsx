@@ -38,14 +38,24 @@ const ProjectsCard = ({
 
           <div className="mt-3 d-flex gap-4">
             {link && (
-              <a href={link} target="_blank" className="text-primary small fw-semibold">
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary small fw-semibold"
+              >
                 <i className="fa fa-arrow-up-right-from-square me-1"></i>
                 Live Demo
               </a>
             )}
 
             {github && (
-              <a href={github} target="_blank" className="text-primary small fw-semibold">
+              <a
+                href={github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary small fw-semibold"
+              >
                 <i className="fab fa-github me-1"></i>
                 GitHub
               </a>
