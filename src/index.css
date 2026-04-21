@@ -1,0 +1,25 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+  color: #1f2937; /* gray-900 */
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+p {
+  color: #4b5563;
+}
+
+a {
+  text-decoration: none;
+  color: #2563eb;
+}
