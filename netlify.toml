@@ -1,0 +1,54 @@
+# ============================================
+# Netlify Configuration for Aditya Portfolio
+# Static Vite + React SPA
+# ============================================
+
+[build]
+  # Build command to run
+  command = "npm run build"
+
+  # Output directory (Vite default)
+  publish = "dist"
+
+# ============================================
+# SPA Routing - Redirect all routes to index.html
+# ============================================
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# ============================================
+# Security & Performance Headers
+# ============================================
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Cache static assets aggressively (JS, CSS, images)
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache images
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+# Cache fonts
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache Lottie animations
+[[headers]]
+  for = "/lottie/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
