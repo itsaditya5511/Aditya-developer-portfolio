@@ -1,0 +1,67 @@
+body > div:first-child {
+  overflow-x: hidden;
+}
+.social-btn {
+  width: 45px;
+  height: 45px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.social-btn:hover {
+  transform: scale(1.12);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+/* ===== White Animated Project Cards ===== */
+
+.project-card-white {
+  background: #ffffff;
+  transition: all 0.35s ease;
+  overflow: hidden;
+}
+
+/* Hover Lift */
+.project-card-white:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Image Styling */
+.project-img {
+  height: 180px;   /* 🔥 Shrunk vertically */
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  transition: transform 0.4s ease;
+}
+
+/* Image Zoom Effect */
+.project-card-white:hover .project-img {
+  transform: scale(1.05);
+}
+
+/* Tech Icon Animation */
+.tech-icon {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.tech-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Fade-in Animation */
+.project-fade {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
